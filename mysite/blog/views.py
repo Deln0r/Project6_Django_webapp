@@ -4,7 +4,7 @@ from .models import Post
 
 # Create your views here.
 def post_list(request):
-    post = Post.published.all()
+    posts = Post.published.all()
     return render(request, 'blog/post/list.html', {'posts': posts})
 
 def post_detail(request, id):
