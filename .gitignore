@@ -5,3 +5,4 @@ my_env/
 .coverage
 coverage.xml
 .pytest_cache/
+mysite/mysite/my_pass.py
